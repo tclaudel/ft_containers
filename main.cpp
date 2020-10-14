@@ -7,7 +7,7 @@
 #include "main.hpp"
 
 int 	test_allocator(void) {
-	std::vector<int, ft::Allocator<int>> array;
+	std::vector<int, ft::Allocator<int> > array;
 	array.push_back(5);
 	std::cout << array[0] << std::endl;
 	return 0;
@@ -16,4 +16,5 @@ int 	test_allocator(void) {
 int 	main(void)
 {
 	test_allocator();
+
 }
